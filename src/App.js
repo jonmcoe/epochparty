@@ -26,6 +26,9 @@ class App extends Component {
             }
         }}
         />
+        <Typography variant={'body2'}>
+            <a href="https://github.com/jonmcoe/epochparty">Source</a>
+        </Typography>
     </div>;
   }
 }
