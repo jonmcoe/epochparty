@@ -18,7 +18,7 @@ class App extends Component {
     return <div>
         <Typography align="center" variant="headline">Loaded at {nowEpoch} ({timeFormat(now)})</Typography>
         <EpochTable currentTime={now} specials={
-            [0, 1000000000, 1234567890, 1577777777, 2222222222].concat(this.state.userSpecified)} />
+            [0, 1000000000, 1234567890, 1577777777, 1666666666, 2222222222].concat(this.state.userSpecified)} />
         <Typography variant={'subheading'}>Add your own below:</Typography>
         <TextField onKeyUp={e => {
             if (e.keyCode === 13 && !isNaN(Number(e.target.value))) {
